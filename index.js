@@ -8,7 +8,7 @@ var current_dog_pair = null
 var dogs = []
 var loading = true;
 
-var DOG_DATA_URL = 'https://codeforanchorage.org/dog-name-game/dog_names3.json'
+var DOG_DATA_URL = 'nyc_dog_names_all.json'
 /*  Dog data as an array of objects:
     [{"name": "FIDO", "count": "30"}, {"name": ...]
     The input script transforms the 'name' parameter to lowercase
@@ -156,7 +156,7 @@ function displayFinalResults() {
 
     document.querySelector('#final_results h2').innerText = 'You got ' + correct_rounds + ' out of ' + NUMBER_OF_ROUNDS + ' correct'
 
-    var social_text = "I just scored " + correct_rounds + " out of " + NUMBER_OF_ROUNDS + " on the Anchorage Dog Name Game! Try it here: https://codeforanchorage.org/dog-name-game/"
+    var social_text = "I just scored " + correct_rounds + " out of " + NUMBER_OF_ROUNDS + " on the New York City Dog Name Game!"
     document.querySelector('#twitter-link').href = "https://twitter.com/home?status=" + encodeURIComponent(social_text)
 
     // initialize()
