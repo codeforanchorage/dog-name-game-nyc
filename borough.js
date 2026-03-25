@@ -21,30 +21,36 @@ function loadData() {
     httpRequest.onreadystatechange = function() {
         if (httpRequest.readyState === XMLHttpRequest.DONE) {
             if (httpRequest.status === 200) {
-                parseCSV(httpRequest.responseText)
+                parseJSON(httpRequest.responseText)
                 startGame()
             } else {
                 alert("Sorry, couldn't load the dog name data")
             }
         }
     }
-    httpRequest.open('GET', 'nyc_dog_name_uniqueness.csv')
+    httpRequest.open('GET', 'nyc_dog_name_uniqueness.json')
     httpRequest.send()
 }
 
-function parseCSV(text) {
-    var lines = text.trim().split('\n')
-    // skip header
-    for (var i = 1; i < lines.length; i++) {
-        var parts = lines[i].split(',')
-        all_names.push({
-            borough: parts[0],
-            rank: parseInt(parts[1]),
-            name: parts[2],
-            lift: parseFloat(parts[3]),
-            borough_count: parseInt(parts[4]),
-            citywide_count: parseInt(parts[5])
-        })
+function parseJSON(text) {
+    var data = JSON.parse(text)
+    var boroughs = data.boroughs
+    for (var borough in boroughs) {
+        var names = boroughs[borough]
+        for (var i = 0; i < names.length; i++) {
+            var entry = names[i]
+            all_names.push({
+                borough: borough,
+                rank: entry.rank,
+                name: entry.name,
+                uniqueness_score: entry.uniqueness_score,
+                borough_count: entry.borough_count,
+                borough_per_10k: entry.borough_per_10k,
+                nyc_count: entry.nyc_count,
+                nyc_per_10k: entry.nyc_per_10k,
+                concentration: entry.concentration
+            })
+        }
     }
 }
 
@@ -126,11 +132,12 @@ function boroughClicked(borough) {
     resultDiv.innerText = is_correct ? 'Correct!' : 'Wrong!'
     resultDiv.className = is_correct ? 'correct' : 'wrong'
 
-    var liftText = current_name.lift.toFixed(1) + 'x'
-    detailDiv.innerHTML = '<strong>' + current_name.name + '</strong> is ' + liftText +
+    var scoreText = current_name.uniqueness_score.toFixed(1) + 'x'
+    detailDiv.innerHTML = '<strong>' + current_name.name + '</strong> is ' + scoreText +
         ' more popular in <strong>' + current_name.borough + '</strong> than the city average' +
-        '<br>(' + current_name.borough_count + ' in ' + current_name.borough +
-        ' out of ' + current_name.citywide_count + ' citywide)'
+        '<br>' + current_name.borough_per_10k + ' per 10k in ' + current_name.borough +
+        ' vs. ' + current_name.nyc_per_10k + ' per 10k citywide' +
+        '<br>(' + current_name.borough_count + ' in borough, ' + current_name.nyc_count + ' citywide)'
 
     // update bone
     var bones = document.querySelectorAll('#borough-round span')
