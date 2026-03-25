@@ -156,7 +156,7 @@ function displayFinalResults() {
 
     document.querySelector('#final_results h2').innerText = 'You got ' + correct_rounds + ' out of ' + NUMBER_OF_ROUNDS + ' correct'
 
-    var social_text = "I just scored " + correct_rounds + " out of " + NUMBER_OF_ROUNDS + " on the New York City Dog Name Game!"
+    var social_text = "I just scored " + correct_rounds + " out of " + NUMBER_OF_ROUNDS + " on the New York City Dog Name Game! Try it here: https://codeforanchorage.org/dog-name-game-nyc/"
     document.querySelector('#twitter-link').href = "https://twitter.com/home?status=" + encodeURIComponent(social_text)
 
     // initialize()

@@ -1,0 +1,51 @@
+borough,rank,name,lift,borough_count,citywide_count
+Manhattan,1,Hobbes,2.2893,73,94
+Manhattan,2,Eloise,2.1075,163,228
+Manhattan,3,Augustus,2.0609,79,113
+Manhattan,4,Tessa,2.0242,103,150
+Manhattan,5,Tate,2.0224,59,86
+Manhattan,6,Elsie,2.0139,69,101
+Manhattan,7,Pippi,1.9908,52,77
+Manhattan,8,Banksy,1.9898,54,80
+Manhattan,9,Henri,1.9796,92,137
+Manhattan,10,Jacques,1.9782,51,76
+Staten Island,1,Doxie,7.8235,55,84
+Staten Island,2,Frenchie,5.5575,60,129
+Staten Island,3,Baci,3.7372,71,227
+Staten Island,4,Abigail,3.1146,55,211
+Staten Island,5,Scruffy,2.9546,68,275
+Staten Island,6,Rascal,2.8744,51,212
+Staten Island,7,Lacey,2.8677,90,375
+Staten Island,8,Savannah,2.7729,55,237
+Staten Island,9,Caesar,2.7132,52,229
+Staten Island,10,Callie,2.5658,102,475
+The Bronx,1,Pom,4.9677,78,150
+The Bronx,2,Nena,3.9358,220,534
+The Bronx,3,Bronx,3.8948,53,130
+The Bronx,4,Chichi,3.4412,67,186
+The Bronx,5,Khloe,2.8148,99,336
+The Bronx,6,Bleu,2.7668,53,183
+The Bronx,7,Blackie,2.7177,66,232
+The Bronx,8,Diva,2.6773,88,314
+The Bronx,9,Bam,2.6225,70,255
+The Bronx,10,Macho,2.4802,54,208
+Brooklyn,1,Jolene,2.1031,58,104
+Brooklyn,2,Gary,1.9356,58,113
+Brooklyn,3,Chestnut,1.9199,56,110
+Brooklyn,4,Nori,1.8982,75,149
+Brooklyn,5,Tiki,1.8856,59,118
+Brooklyn,6,Kenzo,1.7837,70,148
+Brooklyn,7,Artemis,1.78,59,125
+Brooklyn,8,Frances,1.738,53,115
+Brooklyn,9,Ramona,1.7299,50,109
+Brooklyn,10,Beatrice,1.7172,51,112
+Queens,1,Xiao,2.772,52,113
+Queens,2,Queenie,2.3408,75,193
+Queens,3,Coffee,2.2288,74,200
+Queens,4,Brandy,2.188,162,446
+Queens,5,Amy,2.0909,84,242
+Queens,6,Coby,2.0291,64,190
+Queens,7,Andy,1.9731,132,403
+Queens,8,Guinness,1.939,75,233
+Queens,9,Snowball,1.9305,133,415
+Queens,10,Amber,1.9189,115,361

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NYC Dog Name Borough Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <link href="styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Life+Savers:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+        <style>
+            #borough-game { text-align: center; }
+
+            #borough-map {
+                max-width: 600px;
+                margin: 1em auto;
+            }
+            #borough-map svg {
+                width: 100%;
+                height: auto;
+            }
+            #borough-map path {
+                fill: #d5d5d5;
+                stroke: #fff;
+                stroke-width: 2;
+                cursor: pointer;
+                transition: fill 0.2s;
+            }
+            #borough-map path:hover {
+                fill: #a8c4b8;
+            }
+            #borough-map path.correct-borough {
+                fill: #6c7ba5;
+            }
+            #borough-map path.wrong-borough {
+                fill: rgba(161, 157, 138, 0.46);
+            }
+            #borough-map path.highlight-correct {
+                fill: #6c7ba5;
+                animation: pulse 0.6s ease-in-out 3;
+            }
+            @keyframes pulse {
+                0%, 100% { fill: #6c7ba5; }
+                50% { fill: #8fa0cc; }
+            }
+            #borough-map text {
+                font-family: 'Life Savers';
+                font-size: 14px;
+                fill: #3a3a3a;
+                pointer-events: none;
+                font-weight: 700;
+            }
+
+            #dog-name-display {
+                font-family: 'Abril Fatface';
+                font-size: 4em;
+                margin: 0.3em 0;
+                text-transform: capitalize;
+            }
+
+            #borough-result {
+                font-size: 2em;
+                margin: 0.5em 0;
+            }
+            #borough-result.correct { color: #6c7ba5; }
+            #borough-result.wrong { color: rgba(161, 157, 138, 0.7); }
+
+            #borough-detail {
+                font-size: 1.4em;
+                margin: 0.5em 0;
+                font-family: 'Life Savers';
+            }
+
+            #borough-next-btn {
+                font-family: 'Life Savers';
+                font-size: 2em;
+                background: none;
+                border: none;
+                color: #3a3a3a;
+                cursor: pointer;
+                width: auto;
+                margin-top: 0.5em;
+            }
+            #borough-next-btn:hover { color: #3d745c; }
+
+            .borough-hidden { display: none; }
+
+            #borough-round {
+                margin-bottom: 1em;
+            }
+
+            #back-link {
+                display: inline-block;
+                margin-top: 1em;
+                font-size: 1.4em;
+                color: #3d745c;
+                font-family: 'Life Savers';
+            }
+            #back-link:hover { color: #d5d5d5; }
+
+            #final-results-borough {
+                font-size: 1.2em;
+            }
+            #final-results-borough button {
+                margin-top: 0;
+            }
+
+            @media screen and (max-width: 550px) {
+                #dog-name-display { font-size: 3em; }
+                #borough-result { font-size: 1.5em; }
+                #borough-next-btn { font-size: 1.5em; }
+                #borough-map text { font-size: 11px; }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <div id="title-block">
+                <h3>New York City<br>Edition</h3>
+                <h1>Dog Name <span class="undertuck">Borough Game</span></h1>
+            </div>
+
+            <div id="borough-game">
+                <div id="borough-round"></div>
+
+                <div id="borough-play">
+                    <h2>Which borough is this name most uniquely popular in?</h2>
+                    <div id="dog-name-display"></div>
+
+                    <div id="borough-map">
+                        <svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Staten Island -->
+                            <path id="map-staten-island" d="M 80,420 L 120,380 160,390 180,420 190,460 170,500 140,510 100,490 70,460 Z"
+                                  data-borough="Staten Island" onclick="boroughClicked('Staten Island')" />
+                            <text x="125" y="450">Staten Island</text>
+
+                            <!-- Brooklyn -->
+                            <path id="map-brooklyn" d="M 280,350 L 350,320 420,330 440,370 430,420 400,450 350,460 300,440 270,400 Z"
+                                  data-borough="Brooklyn" onclick="boroughClicked('Brooklyn')" />
+                            <text x="340" y="395">Brooklyn</text>
+
+                            <!-- Queens -->
+                            <path id="map-queens" d="M 400,180 L 500,160 580,190 600,250 580,310 530,340 440,330 380,300 370,240 Z"
+                                  data-borough="Queens" onclick="boroughClicked('Queens')" />
+                            <text x="470" y="260">Queens</text>
+
+                            <!-- The Bronx -->
+                            <path id="map-the-bronx" d="M 320,50 L 400,30 470,60 490,120 470,170 420,190 360,180 320,140 310,90 Z"
+                                  data-borough="The Bronx" onclick="boroughClicked('The Bronx')" />
+                            <text x="375" y="115">The Bronx</text>
+
+                            <!-- Manhattan -->
+                            <path id="map-manhattan" d="M 270,120 L 300,80 330,100 340,160 350,220 340,290 320,320 290,330 270,300 260,230 255,170 Z"
+                                  data-borough="Manhattan" onclick="boroughClicked('Manhattan')" />
+                            <text x="280" y="210">Manhattan</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <div id="borough-results" class="borough-hidden">
+                    <div id="borough-result"></div>
+                    <div id="borough-detail"></div>
+                    <button id="borough-next-btn" onclick="nextRound()">Next &#187;</button>
+                </div>
+
+                <div id="final-results-borough" class="borough-hidden">
+                    <h2 id="final-score"></h2>
+                    <p><a href="index.html">Play the Dog Name Popularity Game</a></p>
+                    <button class="prize-badge-with-paw-print" onclick="startGame()">Play Again</button>
+                </div>
+            </div>
+
+            <p><a id="back-link" href="index.html">&laquo; Back to Dog Name Game</a></p>
+
+            <script src="borough.js"></script>
+        </div>
+
+        <div id="footer">Made by <a href="http://codeforanchorage.org">Code for Anchorage</a></div>
+    </body>
+</html>
