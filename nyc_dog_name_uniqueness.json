@@ -1,0 +1,2528 @@
+{
+  "metadata": {
+    "description": "Top 50 most uniquely borough-specific dog names, ranked by lift (borough rate / citywide rate). Nulls, unknowns, breed names, location names, and incomplete entries excluded from all counts.",
+    "names_per_borough": 50,
+    "min_count": 50,
+    "total_records_fetched": 722864,
+    "total_valid_citywide": 680599,
+    "valid_per_borough": {
+      "Manhattan": 231034,
+      "Staten Island": 56827,
+      "The Bronx": 71111,
+      "Brooklyn": 180659,
+      "Queens": 113011
+    }
+  },
+  "boroughs": {
+    "Manhattan": [
+      {
+        "rank": 1,
+        "name": "Hobbes",
+        "borough_count": 73,
+        "borough_per_10k": 3.16,
+        "nyc_count": 94,
+        "nyc_per_10k": 1.38,
+        "uniqueness_score": 2.29,
+        "concentration": 0.7766
+      },
+      {
+        "rank": 2,
+        "name": "Eloise",
+        "borough_count": 163,
+        "borough_per_10k": 7.06,
+        "nyc_count": 228,
+        "nyc_per_10k": 3.35,
+        "uniqueness_score": 2.11,
+        "concentration": 0.7149
+      },
+      {
+        "rank": 3,
+        "name": "Augustus",
+        "borough_count": 79,
+        "borough_per_10k": 3.42,
+        "nyc_count": 113,
+        "nyc_per_10k": 1.66,
+        "uniqueness_score": 2.06,
+        "concentration": 0.6991
+      },
+      {
+        "rank": 4,
+        "name": "Tessa",
+        "borough_count": 103,
+        "borough_per_10k": 4.46,
+        "nyc_count": 150,
+        "nyc_per_10k": 2.2,
+        "uniqueness_score": 2.02,
+        "concentration": 0.6867
+      },
+      {
+        "rank": 5,
+        "name": "Tate",
+        "borough_count": 59,
+        "borough_per_10k": 2.55,
+        "nyc_count": 86,
+        "nyc_per_10k": 1.26,
+        "uniqueness_score": 2.02,
+        "concentration": 0.686
+      },
+      {
+        "rank": 6,
+        "name": "Elsie",
+        "borough_count": 69,
+        "borough_per_10k": 2.99,
+        "nyc_count": 101,
+        "nyc_per_10k": 1.48,
+        "uniqueness_score": 2.01,
+        "concentration": 0.6832
+      },
+      {
+        "rank": 7,
+        "name": "Pippi",
+        "borough_count": 52,
+        "borough_per_10k": 2.25,
+        "nyc_count": 77,
+        "nyc_per_10k": 1.13,
+        "uniqueness_score": 1.99,
+        "concentration": 0.6753
+      },
+      {
+        "rank": 8,
+        "name": "Banksy",
+        "borough_count": 54,
+        "borough_per_10k": 2.34,
+        "nyc_count": 80,
+        "nyc_per_10k": 1.18,
+        "uniqueness_score": 1.99,
+        "concentration": 0.675
+      },
+      {
+        "rank": 9,
+        "name": "Henri",
+        "borough_count": 92,
+        "borough_per_10k": 3.98,
+        "nyc_count": 137,
+        "nyc_per_10k": 2.01,
+        "uniqueness_score": 1.98,
+        "concentration": 0.6715
+      },
+      {
+        "rank": 10,
+        "name": "Jacques",
+        "borough_count": 51,
+        "borough_per_10k": 2.21,
+        "nyc_count": 76,
+        "nyc_per_10k": 1.12,
+        "uniqueness_score": 1.98,
+        "concentration": 0.6711
+      },
+      {
+        "rank": 11,
+        "name": "Darcy",
+        "borough_count": 110,
+        "borough_per_10k": 4.76,
+        "nyc_count": 164,
+        "nyc_per_10k": 2.41,
+        "uniqueness_score": 1.98,
+        "concentration": 0.6707
+      },
+      {
+        "rank": 12,
+        "name": "Pip",
+        "borough_count": 128,
+        "borough_per_10k": 5.54,
+        "nyc_count": 191,
+        "nyc_per_10k": 2.81,
+        "uniqueness_score": 1.97,
+        "concentration": 0.6702
+      },
+      {
+        "rank": 13,
+        "name": "Indie",
+        "borough_count": 97,
+        "borough_per_10k": 4.2,
+        "nyc_count": 147,
+        "nyc_per_10k": 2.16,
+        "uniqueness_score": 1.94,
+        "concentration": 0.6599
+      },
+      {
+        "rank": 14,
+        "name": "Tillie",
+        "borough_count": 60,
+        "borough_per_10k": 2.6,
+        "nyc_count": 91,
+        "nyc_per_10k": 1.34,
+        "uniqueness_score": 1.94,
+        "concentration": 0.6593
+      },
+      {
+        "rank": 15,
+        "name": "Madeline",
+        "borough_count": 65,
+        "borough_per_10k": 2.81,
+        "nyc_count": 99,
+        "nyc_per_10k": 1.45,
+        "uniqueness_score": 1.93,
+        "concentration": 0.6566
+      },
+      {
+        "rank": 16,
+        "name": "Huck",
+        "borough_count": 51,
+        "borough_per_10k": 2.21,
+        "nyc_count": 78,
+        "nyc_per_10k": 1.15,
+        "uniqueness_score": 1.93,
+        "concentration": 0.6538
+      },
+      {
+        "rank": 17,
+        "name": "Hudson",
+        "borough_count": 641,
+        "borough_per_10k": 27.74,
+        "nyc_count": 986,
+        "nyc_per_10k": 14.49,
+        "uniqueness_score": 1.92,
+        "concentration": 0.6501
+      },
+      {
+        "rank": 18,
+        "name": "Marvin",
+        "borough_count": 79,
+        "borough_per_10k": 3.42,
+        "nyc_count": 122,
+        "nyc_per_10k": 1.79,
+        "uniqueness_score": 1.91,
+        "concentration": 0.6475
+      },
+      {
+        "rank": 19,
+        "name": "Agnes",
+        "borough_count": 82,
+        "borough_per_10k": 3.55,
+        "nyc_count": 127,
+        "nyc_per_10k": 1.87,
+        "uniqueness_score": 1.9,
+        "concentration": 0.6457
+      },
+      {
+        "rank": 20,
+        "name": "Wrigley",
+        "borough_count": 89,
+        "borough_per_10k": 3.85,
+        "nyc_count": 138,
+        "nyc_per_10k": 2.03,
+        "uniqueness_score": 1.9,
+        "concentration": 0.6449
+      },
+      {
+        "rank": 21,
+        "name": "Flora",
+        "borough_count": 70,
+        "borough_per_10k": 3.03,
+        "nyc_count": 109,
+        "nyc_per_10k": 1.6,
+        "uniqueness_score": 1.89,
+        "concentration": 0.6422
+      },
+      {
+        "rank": 22,
+        "name": "Buckley",
+        "borough_count": 59,
+        "borough_per_10k": 2.55,
+        "nyc_count": 92,
+        "nyc_per_10k": 1.35,
+        "uniqueness_score": 1.89,
+        "concentration": 0.6413
+      },
+      {
+        "rank": 23,
+        "name": "Moby",
+        "borough_count": 75,
+        "borough_per_10k": 3.25,
+        "nyc_count": 117,
+        "nyc_per_10k": 1.72,
+        "uniqueness_score": 1.89,
+        "concentration": 0.641
+      },
+      {
+        "rank": 24,
+        "name": "Milton",
+        "borough_count": 55,
+        "borough_per_10k": 2.38,
+        "nyc_count": 86,
+        "nyc_per_10k": 1.26,
+        "uniqueness_score": 1.88,
+        "concentration": 0.6395
+      },
+      {
+        "rank": 25,
+        "name": "French",
+        "borough_count": 205,
+        "borough_per_10k": 8.87,
+        "nyc_count": 321,
+        "nyc_per_10k": 4.72,
+        "uniqueness_score": 1.88,
+        "concentration": 0.6386
+      },
+      {
+        "rank": 26,
+        "name": "Rupert",
+        "borough_count": 107,
+        "borough_per_10k": 4.63,
+        "nyc_count": 169,
+        "nyc_per_10k": 2.48,
+        "uniqueness_score": 1.87,
+        "concentration": 0.6331
+      },
+      {
+        "rank": 27,
+        "name": "Gordon",
+        "borough_count": 55,
+        "borough_per_10k": 2.38,
+        "nyc_count": 88,
+        "nyc_per_10k": 1.29,
+        "uniqueness_score": 1.84,
+        "concentration": 0.625
+      },
+      {
+        "rank": 28,
+        "name": "Pippa",
+        "borough_count": 294,
+        "borough_per_10k": 12.73,
+        "nyc_count": 472,
+        "nyc_per_10k": 6.94,
+        "uniqueness_score": 1.83,
+        "concentration": 0.6229
+      },
+      {
+        "rank": 29,
+        "name": "Walnut",
+        "borough_count": 51,
+        "borough_per_10k": 2.21,
+        "nyc_count": 82,
+        "nyc_per_10k": 1.2,
+        "uniqueness_score": 1.83,
+        "concentration": 0.622
+      },
+      {
+        "rank": 30,
+        "name": "Buzz",
+        "borough_count": 71,
+        "borough_per_10k": 3.07,
+        "nyc_count": 115,
+        "nyc_per_10k": 1.69,
+        "uniqueness_score": 1.82,
+        "concentration": 0.6174
+      },
+      {
+        "rank": 31,
+        "name": "Maisie",
+        "borough_count": 208,
+        "borough_per_10k": 9.0,
+        "nyc_count": 337,
+        "nyc_per_10k": 4.95,
+        "uniqueness_score": 1.82,
+        "concentration": 0.6172
+      },
+      {
+        "rank": 32,
+        "name": "Pierre",
+        "borough_count": 93,
+        "borough_per_10k": 4.03,
+        "nyc_count": 151,
+        "nyc_per_10k": 2.22,
+        "uniqueness_score": 1.81,
+        "concentration": 0.6159
+      },
+      {
+        "rank": 33,
+        "name": "Milly",
+        "borough_count": 107,
+        "borough_per_10k": 4.63,
+        "nyc_count": 174,
+        "nyc_per_10k": 2.56,
+        "uniqueness_score": 1.81,
+        "concentration": 0.6149
+      },
+      {
+        "rank": 34,
+        "name": "Zola",
+        "borough_count": 70,
+        "borough_per_10k": 3.03,
+        "nyc_count": 114,
+        "nyc_per_10k": 1.67,
+        "uniqueness_score": 1.81,
+        "concentration": 0.614
+      },
+      {
+        "rank": 35,
+        "name": "Moxie",
+        "borough_count": 127,
+        "borough_per_10k": 5.5,
+        "nyc_count": 207,
+        "nyc_per_10k": 3.04,
+        "uniqueness_score": 1.81,
+        "concentration": 0.6135
+      },
+      {
+        "rank": 36,
+        "name": "Barnaby",
+        "borough_count": 56,
+        "borough_per_10k": 2.42,
+        "nyc_count": 92,
+        "nyc_per_10k": 1.35,
+        "uniqueness_score": 1.79,
+        "concentration": 0.6087
+      },
+      {
+        "rank": 37,
+        "name": "Maisy",
+        "borough_count": 113,
+        "borough_per_10k": 4.89,
+        "nyc_count": 186,
+        "nyc_per_10k": 2.73,
+        "uniqueness_score": 1.79,
+        "concentration": 0.6075
+      },
+      {
+        "rank": 38,
+        "name": "Reuben",
+        "borough_count": 51,
+        "borough_per_10k": 2.21,
+        "nyc_count": 84,
+        "nyc_per_10k": 1.23,
+        "uniqueness_score": 1.79,
+        "concentration": 0.6071
+      },
+      {
+        "rank": 39,
+        "name": "Nigel",
+        "borough_count": 72,
+        "borough_per_10k": 3.12,
+        "nyc_count": 119,
+        "nyc_per_10k": 1.75,
+        "uniqueness_score": 1.78,
+        "concentration": 0.605
+      },
+      {
+        "rank": 40,
+        "name": "Tess",
+        "borough_count": 77,
+        "borough_per_10k": 3.33,
+        "nyc_count": 128,
+        "nyc_per_10k": 1.88,
+        "uniqueness_score": 1.77,
+        "concentration": 0.6016
+      },
+      {
+        "rank": 41,
+        "name": "Harper",
+        "borough_count": 256,
+        "borough_per_10k": 11.08,
+        "nyc_count": 427,
+        "nyc_per_10k": 6.27,
+        "uniqueness_score": 1.77,
+        "concentration": 0.5995
+      },
+      {
+        "rank": 42,
+        "name": "Bodhi",
+        "borough_count": 182,
+        "borough_per_10k": 7.88,
+        "nyc_count": 307,
+        "nyc_per_10k": 4.51,
+        "uniqueness_score": 1.75,
+        "concentration": 0.5928
+      },
+      {
+        "rank": 43,
+        "name": "Georgie",
+        "borough_count": 208,
+        "borough_per_10k": 9.0,
+        "nyc_count": 354,
+        "nyc_per_10k": 5.2,
+        "uniqueness_score": 1.73,
+        "concentration": 0.5876
+      },
+      {
+        "rank": 44,
+        "name": "Rigby",
+        "borough_count": 71,
+        "borough_per_10k": 3.07,
+        "nyc_count": 121,
+        "nyc_per_10k": 1.78,
+        "uniqueness_score": 1.73,
+        "concentration": 0.5868
+      },
+      {
+        "rank": 45,
+        "name": "Zooey",
+        "borough_count": 52,
+        "borough_per_10k": 2.25,
+        "nyc_count": 89,
+        "nyc_per_10k": 1.31,
+        "uniqueness_score": 1.72,
+        "concentration": 0.5843
+      },
+      {
+        "rank": 46,
+        "name": "Merlin",
+        "borough_count": 94,
+        "borough_per_10k": 4.07,
+        "nyc_count": 161,
+        "nyc_per_10k": 2.37,
+        "uniqueness_score": 1.72,
+        "concentration": 0.5839
+      },
+      {
+        "rank": 47,
+        "name": "Truffle",
+        "borough_count": 98,
+        "borough_per_10k": 4.24,
+        "nyc_count": 168,
+        "nyc_per_10k": 2.47,
+        "uniqueness_score": 1.72,
+        "concentration": 0.5833
+      },
+      {
+        "rank": 48,
+        "name": "Crosby",
+        "borough_count": 68,
+        "borough_per_10k": 2.94,
+        "nyc_count": 117,
+        "nyc_per_10k": 1.72,
+        "uniqueness_score": 1.71,
+        "concentration": 0.5812
+      },
+      {
+        "rank": 49,
+        "name": "Perry",
+        "borough_count": 68,
+        "borough_per_10k": 2.94,
+        "nyc_count": 117,
+        "nyc_per_10k": 1.72,
+        "uniqueness_score": 1.71,
+        "concentration": 0.5812
+      },
+      {
+        "rank": 50,
+        "name": "Louis",
+        "borough_count": 254,
+        "borough_per_10k": 10.99,
+        "nyc_count": 442,
+        "nyc_per_10k": 6.49,
+        "uniqueness_score": 1.69,
+        "concentration": 0.5747
+      }
+    ],
+    "Staten Island": [
+      {
+        "rank": 1,
+        "name": "Baci",
+        "borough_count": 71,
+        "borough_per_10k": 12.49,
+        "nyc_count": 228,
+        "nyc_per_10k": 3.35,
+        "uniqueness_score": 3.73,
+        "concentration": 0.3114
+      },
+      {
+        "rank": 2,
+        "name": "Abigail",
+        "borough_count": 55,
+        "borough_per_10k": 9.68,
+        "nyc_count": 211,
+        "nyc_per_10k": 3.1,
+        "uniqueness_score": 3.12,
+        "concentration": 0.2607
+      },
+      {
+        "rank": 3,
+        "name": "Scruffy",
+        "borough_count": 68,
+        "borough_per_10k": 11.97,
+        "nyc_count": 275,
+        "nyc_per_10k": 4.04,
+        "uniqueness_score": 2.96,
+        "concentration": 0.2473
+      },
+      {
+        "rank": 4,
+        "name": "Rascal",
+        "borough_count": 51,
+        "borough_per_10k": 8.97,
+        "nyc_count": 212,
+        "nyc_per_10k": 3.11,
+        "uniqueness_score": 2.88,
+        "concentration": 0.2406
+      },
+      {
+        "rank": 5,
+        "name": "Lacey",
+        "borough_count": 90,
+        "borough_per_10k": 15.84,
+        "nyc_count": 375,
+        "nyc_per_10k": 5.51,
+        "uniqueness_score": 2.87,
+        "concentration": 0.24
+      },
+      {
+        "rank": 6,
+        "name": "Savannah",
+        "borough_count": 55,
+        "borough_per_10k": 9.68,
+        "nyc_count": 237,
+        "nyc_per_10k": 3.48,
+        "uniqueness_score": 2.78,
+        "concentration": 0.2321
+      },
+      {
+        "rank": 7,
+        "name": "Caesar",
+        "borough_count": 52,
+        "borough_per_10k": 9.15,
+        "nyc_count": 229,
+        "nyc_per_10k": 3.36,
+        "uniqueness_score": 2.72,
+        "concentration": 0.2271
+      },
+      {
+        "rank": 8,
+        "name": "Callie",
+        "borough_count": 102,
+        "borough_per_10k": 17.95,
+        "nyc_count": 475,
+        "nyc_per_10k": 6.98,
+        "uniqueness_score": 2.57,
+        "concentration": 0.2147
+      },
+      {
+        "rank": 9,
+        "name": "Jax",
+        "borough_count": 268,
+        "borough_per_10k": 47.16,
+        "nyc_count": 1280,
+        "nyc_per_10k": 18.81,
+        "uniqueness_score": 2.51,
+        "concentration": 0.2094
+      },
+      {
+        "rank": 10,
+        "name": "Dante",
+        "borough_count": 75,
+        "borough_per_10k": 13.2,
+        "nyc_count": 363,
+        "nyc_per_10k": 5.33,
+        "uniqueness_score": 2.47,
+        "concentration": 0.2066
+      },
+      {
+        "rank": 11,
+        "name": "Tank",
+        "borough_count": 70,
+        "borough_per_10k": 12.32,
+        "nyc_count": 347,
+        "nyc_per_10k": 5.1,
+        "uniqueness_score": 2.42,
+        "concentration": 0.2017
+      },
+      {
+        "rank": 12,
+        "name": "Harley",
+        "borough_count": 254,
+        "borough_per_10k": 44.7,
+        "nyc_count": 1324,
+        "nyc_per_10k": 19.45,
+        "uniqueness_score": 2.3,
+        "concentration": 0.1918
+      },
+      {
+        "rank": 13,
+        "name": "Faith",
+        "borough_count": 50,
+        "borough_per_10k": 8.8,
+        "nyc_count": 267,
+        "nyc_per_10k": 3.92,
+        "uniqueness_score": 2.24,
+        "concentration": 0.1873
+      },
+      {
+        "rank": 14,
+        "name": "Abby",
+        "borough_count": 169,
+        "borough_per_10k": 29.74,
+        "nyc_count": 904,
+        "nyc_per_10k": 13.28,
+        "uniqueness_score": 2.24,
+        "concentration": 0.1869
+      },
+      {
+        "rank": 15,
+        "name": "Misty",
+        "borough_count": 72,
+        "borough_per_10k": 12.67,
+        "nyc_count": 388,
+        "nyc_per_10k": 5.7,
+        "uniqueness_score": 2.22,
+        "concentration": 0.1856
+      },
+      {
+        "rank": 16,
+        "name": "Buster",
+        "borough_count": 225,
+        "borough_per_10k": 39.59,
+        "nyc_count": 1231,
+        "nyc_per_10k": 18.09,
+        "uniqueness_score": 2.19,
+        "concentration": 0.1828
+      },
+      {
+        "rank": 17,
+        "name": "Petey",
+        "borough_count": 78,
+        "borough_per_10k": 13.73,
+        "nyc_count": 429,
+        "nyc_per_10k": 6.3,
+        "uniqueness_score": 2.18,
+        "concentration": 0.1818
+      },
+      {
+        "rank": 18,
+        "name": "Molly",
+        "borough_count": 458,
+        "borough_per_10k": 80.6,
+        "nyc_count": 2537,
+        "nyc_per_10k": 37.28,
+        "uniqueness_score": 2.16,
+        "concentration": 0.1805
+      },
+      {
+        "rank": 19,
+        "name": "Rocco",
+        "borough_count": 223,
+        "borough_per_10k": 39.24,
+        "nyc_count": 1243,
+        "nyc_per_10k": 18.26,
+        "uniqueness_score": 2.15,
+        "concentration": 0.1794
+      },
+      {
+        "rank": 20,
+        "name": "Gia",
+        "borough_count": 60,
+        "borough_per_10k": 10.56,
+        "nyc_count": 335,
+        "nyc_per_10k": 4.92,
+        "uniqueness_score": 2.15,
+        "concentration": 0.1791
+      },
+      {
+        "rank": 21,
+        "name": "Dusty",
+        "borough_count": 58,
+        "borough_per_10k": 10.21,
+        "nyc_count": 328,
+        "nyc_per_10k": 4.82,
+        "uniqueness_score": 2.12,
+        "concentration": 0.1768
+      },
+      {
+        "rank": 22,
+        "name": "Patches",
+        "borough_count": 60,
+        "borough_per_10k": 10.56,
+        "nyc_count": 350,
+        "nyc_per_10k": 5.14,
+        "uniqueness_score": 2.05,
+        "concentration": 0.1714
+      },
+      {
+        "rank": 23,
+        "name": "Jake",
+        "borough_count": 215,
+        "borough_per_10k": 37.83,
+        "nyc_count": 1275,
+        "nyc_per_10k": 18.73,
+        "uniqueness_score": 2.02,
+        "concentration": 0.1686
+      },
+      {
+        "rank": 24,
+        "name": "Casey",
+        "borough_count": 106,
+        "borough_per_10k": 18.65,
+        "nyc_count": 629,
+        "nyc_per_10k": 9.24,
+        "uniqueness_score": 2.02,
+        "concentration": 0.1685
+      },
+      {
+        "rank": 25,
+        "name": "Sophia",
+        "borough_count": 75,
+        "borough_per_10k": 13.2,
+        "nyc_count": 446,
+        "nyc_per_10k": 6.55,
+        "uniqueness_score": 2.01,
+        "concentration": 0.1682
+      },
+      {
+        "rank": 26,
+        "name": "Nikki",
+        "borough_count": 61,
+        "borough_per_10k": 10.73,
+        "nyc_count": 365,
+        "nyc_per_10k": 5.36,
+        "uniqueness_score": 2.0,
+        "concentration": 0.1671
+      },
+      {
+        "rank": 27,
+        "name": "Hunter",
+        "borough_count": 162,
+        "borough_per_10k": 28.51,
+        "nyc_count": 986,
+        "nyc_per_10k": 14.49,
+        "uniqueness_score": 1.97,
+        "concentration": 0.1643
+      },
+      {
+        "rank": 28,
+        "name": "Dixie",
+        "borough_count": 69,
+        "borough_per_10k": 12.14,
+        "nyc_count": 420,
+        "nyc_per_10k": 6.17,
+        "uniqueness_score": 1.97,
+        "concentration": 0.1643
+      },
+      {
+        "rank": 29,
+        "name": "Pebbles",
+        "borough_count": 114,
+        "borough_per_10k": 20.06,
+        "nyc_count": 701,
+        "nyc_per_10k": 10.3,
+        "uniqueness_score": 1.95,
+        "concentration": 0.1626
+      },
+      {
+        "rank": 30,
+        "name": "Holly",
+        "borough_count": 101,
+        "borough_per_10k": 17.77,
+        "nyc_count": 630,
+        "nyc_per_10k": 9.26,
+        "uniqueness_score": 1.92,
+        "concentration": 0.1603
+      },
+      {
+        "rank": 31,
+        "name": "Cody",
+        "borough_count": 246,
+        "borough_per_10k": 43.29,
+        "nyc_count": 1537,
+        "nyc_per_10k": 22.58,
+        "uniqueness_score": 1.92,
+        "concentration": 0.1601
+      },
+      {
+        "rank": 32,
+        "name": "Bosco",
+        "borough_count": 54,
+        "borough_per_10k": 9.5,
+        "nyc_count": 340,
+        "nyc_per_10k": 5.0,
+        "uniqueness_score": 1.9,
+        "concentration": 0.1588
+      },
+      {
+        "rank": 33,
+        "name": "Koda",
+        "borough_count": 83,
+        "borough_per_10k": 14.61,
+        "nyc_count": 524,
+        "nyc_per_10k": 7.7,
+        "uniqueness_score": 1.9,
+        "concentration": 0.1584
+      },
+      {
+        "rank": 34,
+        "name": "Jessie",
+        "borough_count": 59,
+        "borough_per_10k": 10.38,
+        "nyc_count": 375,
+        "nyc_per_10k": 5.51,
+        "uniqueness_score": 1.88,
+        "concentration": 0.1573
+      },
+      {
+        "rank": 35,
+        "name": "Bailey",
+        "borough_count": 543,
+        "borough_per_10k": 95.55,
+        "nyc_count": 3485,
+        "nyc_per_10k": 51.2,
+        "uniqueness_score": 1.87,
+        "concentration": 0.1558
+      },
+      {
+        "rank": 36,
+        "name": "Ranger",
+        "borough_count": 52,
+        "borough_per_10k": 9.15,
+        "nyc_count": 335,
+        "nyc_per_10k": 4.92,
+        "uniqueness_score": 1.86,
+        "concentration": 0.1552
+      },
+      {
+        "rank": 37,
+        "name": "Samantha",
+        "borough_count": 73,
+        "borough_per_10k": 12.85,
+        "nyc_count": 472,
+        "nyc_per_10k": 6.94,
+        "uniqueness_score": 1.85,
+        "concentration": 0.1547
+      },
+      {
+        "rank": 38,
+        "name": "Nico",
+        "borough_count": 85,
+        "borough_per_10k": 14.96,
+        "nyc_count": 556,
+        "nyc_per_10k": 8.17,
+        "uniqueness_score": 1.83,
+        "concentration": 0.1529
+      },
+      {
+        "rank": 39,
+        "name": "Zoey",
+        "borough_count": 245,
+        "borough_per_10k": 43.11,
+        "nyc_count": 1646,
+        "nyc_per_10k": 24.18,
+        "uniqueness_score": 1.78,
+        "concentration": 0.1488
+      },
+      {
+        "rank": 40,
+        "name": "Hershey",
+        "borough_count": 77,
+        "borough_per_10k": 13.55,
+        "nyc_count": 519,
+        "nyc_per_10k": 7.63,
+        "uniqueness_score": 1.78,
+        "concentration": 0.1484
+      },
+      {
+        "rank": 41,
+        "name": "Duke",
+        "borough_count": 209,
+        "borough_per_10k": 36.78,
+        "nyc_count": 1421,
+        "nyc_per_10k": 20.88,
+        "uniqueness_score": 1.76,
+        "concentration": 0.1471
+      },
+      {
+        "rank": 42,
+        "name": "Dino",
+        "borough_count": 56,
+        "borough_per_10k": 9.85,
+        "nyc_count": 382,
+        "nyc_per_10k": 5.61,
+        "uniqueness_score": 1.76,
+        "concentration": 0.1466
+      },
+      {
+        "rank": 43,
+        "name": "Roscoe",
+        "borough_count": 69,
+        "borough_per_10k": 12.14,
+        "nyc_count": 472,
+        "nyc_per_10k": 6.94,
+        "uniqueness_score": 1.75,
+        "concentration": 0.1462
+      },
+      {
+        "rank": 44,
+        "name": "Ava",
+        "borough_count": 62,
+        "borough_per_10k": 10.91,
+        "nyc_count": 425,
+        "nyc_per_10k": 6.24,
+        "uniqueness_score": 1.75,
+        "concentration": 0.1459
+      },
+      {
+        "rank": 45,
+        "name": "Minnie",
+        "borough_count": 145,
+        "borough_per_10k": 25.52,
+        "nyc_count": 1011,
+        "nyc_per_10k": 14.85,
+        "uniqueness_score": 1.72,
+        "concentration": 0.1434
+      },
+      {
+        "rank": 46,
+        "name": "Lexi",
+        "borough_count": 156,
+        "borough_per_10k": 27.45,
+        "nyc_count": 1093,
+        "nyc_per_10k": 16.06,
+        "uniqueness_score": 1.71,
+        "concentration": 0.1427
+      },
+      {
+        "rank": 47,
+        "name": "Benjamin",
+        "borough_count": 54,
+        "borough_per_10k": 9.5,
+        "nyc_count": 379,
+        "nyc_per_10k": 5.57,
+        "uniqueness_score": 1.71,
+        "concentration": 0.1425
+      },
+      {
+        "rank": 48,
+        "name": "Bo",
+        "borough_count": 61,
+        "borough_per_10k": 10.73,
+        "nyc_count": 432,
+        "nyc_per_10k": 6.35,
+        "uniqueness_score": 1.69,
+        "concentration": 0.1412
+      },
+      {
+        "rank": 49,
+        "name": "Buddy",
+        "borough_count": 512,
+        "borough_per_10k": 90.1,
+        "nyc_count": 3632,
+        "nyc_per_10k": 53.36,
+        "uniqueness_score": 1.69,
+        "concentration": 0.141
+      },
+      {
+        "rank": 50,
+        "name": "Dakota",
+        "borough_count": 75,
+        "borough_per_10k": 13.2,
+        "nyc_count": 533,
+        "nyc_per_10k": 7.83,
+        "uniqueness_score": 1.69,
+        "concentration": 0.1407
+      }
+    ],
+    "The Bronx": [
+      {
+        "rank": 1,
+        "name": "Nena",
+        "borough_count": 220,
+        "borough_per_10k": 30.94,
+        "nyc_count": 534,
+        "nyc_per_10k": 7.85,
+        "uniqueness_score": 3.94,
+        "concentration": 0.412
+      },
+      {
+        "rank": 2,
+        "name": "Chichi",
+        "borough_count": 67,
+        "borough_per_10k": 9.42,
+        "nyc_count": 186,
+        "nyc_per_10k": 2.73,
+        "uniqueness_score": 3.45,
+        "concentration": 0.3602
+      },
+      {
+        "rank": 3,
+        "name": "Khloe",
+        "borough_count": 99,
+        "borough_per_10k": 13.92,
+        "nyc_count": 336,
+        "nyc_per_10k": 4.94,
+        "uniqueness_score": 2.82,
+        "concentration": 0.2946
+      },
+      {
+        "rank": 4,
+        "name": "Bleu",
+        "borough_count": 53,
+        "borough_per_10k": 7.45,
+        "nyc_count": 183,
+        "nyc_per_10k": 2.69,
+        "uniqueness_score": 2.77,
+        "concentration": 0.2896
+      },
+      {
+        "rank": 5,
+        "name": "Blackie",
+        "borough_count": 66,
+        "borough_per_10k": 9.28,
+        "nyc_count": 232,
+        "nyc_per_10k": 3.41,
+        "uniqueness_score": 2.72,
+        "concentration": 0.2845
+      },
+      {
+        "rank": 6,
+        "name": "Diva",
+        "borough_count": 88,
+        "borough_per_10k": 12.38,
+        "nyc_count": 314,
+        "nyc_per_10k": 4.61,
+        "uniqueness_score": 2.68,
+        "concentration": 0.2803
+      },
+      {
+        "rank": 7,
+        "name": "Bam",
+        "borough_count": 70,
+        "borough_per_10k": 9.84,
+        "nyc_count": 255,
+        "nyc_per_10k": 3.75,
+        "uniqueness_score": 2.63,
+        "concentration": 0.2745
+      },
+      {
+        "rank": 8,
+        "name": "Macho",
+        "borough_count": 54,
+        "borough_per_10k": 7.59,
+        "nyc_count": 208,
+        "nyc_per_10k": 3.06,
+        "uniqueness_score": 2.48,
+        "concentration": 0.2596
+      },
+      {
+        "rank": 9,
+        "name": "Dior",
+        "borough_count": 86,
+        "borough_per_10k": 12.09,
+        "nyc_count": 332,
+        "nyc_per_10k": 4.88,
+        "uniqueness_score": 2.48,
+        "concentration": 0.259
+      },
+      {
+        "rank": 10,
+        "name": "Nyla",
+        "borough_count": 53,
+        "borough_per_10k": 7.45,
+        "nyc_count": 207,
+        "nyc_per_10k": 3.04,
+        "uniqueness_score": 2.45,
+        "concentration": 0.256
+      },
+      {
+        "rank": 11,
+        "name": "Sassy",
+        "borough_count": 79,
+        "borough_per_10k": 11.11,
+        "nyc_count": 315,
+        "nyc_per_10k": 4.63,
+        "uniqueness_score": 2.4,
+        "concentration": 0.2508
+      },
+      {
+        "rank": 12,
+        "name": "Linda",
+        "borough_count": 58,
+        "borough_per_10k": 8.16,
+        "nyc_count": 232,
+        "nyc_per_10k": 3.41,
+        "uniqueness_score": 2.39,
+        "concentration": 0.25
+      },
+      {
+        "rank": 13,
+        "name": "Mister",
+        "borough_count": 55,
+        "borough_per_10k": 7.73,
+        "nyc_count": 223,
+        "nyc_per_10k": 3.28,
+        "uniqueness_score": 2.36,
+        "concentration": 0.2466
+      },
+      {
+        "rank": 14,
+        "name": "Thunder",
+        "borough_count": 53,
+        "borough_per_10k": 7.45,
+        "nyc_count": 215,
+        "nyc_per_10k": 3.16,
+        "uniqueness_score": 2.36,
+        "concentration": 0.2465
+      },
+      {
+        "rank": 15,
+        "name": "Jay",
+        "borough_count": 53,
+        "borough_per_10k": 7.45,
+        "nyc_count": 216,
+        "nyc_per_10k": 3.17,
+        "uniqueness_score": 2.35,
+        "concentration": 0.2454
+      },
+      {
+        "rank": 16,
+        "name": "Fendi",
+        "borough_count": 54,
+        "borough_per_10k": 7.59,
+        "nyc_count": 226,
+        "nyc_per_10k": 3.32,
+        "uniqueness_score": 2.29,
+        "concentration": 0.2389
+      },
+      {
+        "rank": 17,
+        "name": "Diamond",
+        "borough_count": 172,
+        "borough_per_10k": 24.19,
+        "nyc_count": 721,
+        "nyc_per_10k": 10.59,
+        "uniqueness_score": 2.28,
+        "concentration": 0.2386
+      },
+      {
+        "rank": 18,
+        "name": "Melo",
+        "borough_count": 80,
+        "borough_per_10k": 11.25,
+        "nyc_count": 338,
+        "nyc_per_10k": 4.97,
+        "uniqueness_score": 2.27,
+        "concentration": 0.2367
+      },
+      {
+        "rank": 19,
+        "name": "Titan",
+        "borough_count": 57,
+        "borough_per_10k": 8.02,
+        "nyc_count": 241,
+        "nyc_per_10k": 3.54,
+        "uniqueness_score": 2.26,
+        "concentration": 0.2365
+      },
+      {
+        "rank": 20,
+        "name": "Jacob",
+        "borough_count": 56,
+        "borough_per_10k": 7.88,
+        "nyc_count": 240,
+        "nyc_per_10k": 3.53,
+        "uniqueness_score": 2.23,
+        "concentration": 0.2333
+      },
+      {
+        "rank": 21,
+        "name": "Precious",
+        "borough_count": 132,
+        "borough_per_10k": 18.56,
+        "nyc_count": 574,
+        "nyc_per_10k": 8.43,
+        "uniqueness_score": 2.2,
+        "concentration": 0.23
+      },
+      {
+        "rank": 22,
+        "name": "Rocko",
+        "borough_count": 53,
+        "borough_per_10k": 7.45,
+        "nyc_count": 239,
+        "nyc_per_10k": 3.51,
+        "uniqueness_score": 2.12,
+        "concentration": 0.2218
+      },
+      {
+        "rank": 23,
+        "name": "Chanel",
+        "borough_count": 113,
+        "borough_per_10k": 15.89,
+        "nyc_count": 516,
+        "nyc_per_10k": 7.58,
+        "uniqueness_score": 2.1,
+        "concentration": 0.219
+      },
+      {
+        "rank": 24,
+        "name": "Chase",
+        "borough_count": 210,
+        "borough_per_10k": 29.53,
+        "nyc_count": 960,
+        "nyc_per_10k": 14.11,
+        "uniqueness_score": 2.09,
+        "concentration": 0.2188
+      },
+      {
+        "rank": 25,
+        "name": "King",
+        "borough_count": 304,
+        "borough_per_10k": 42.75,
+        "nyc_count": 1395,
+        "nyc_per_10k": 20.5,
+        "uniqueness_score": 2.09,
+        "concentration": 0.2179
+      },
+      {
+        "rank": 26,
+        "name": "Princess",
+        "borough_count": 621,
+        "borough_per_10k": 87.33,
+        "nyc_count": 2912,
+        "nyc_per_10k": 42.79,
+        "uniqueness_score": 2.04,
+        "concentration": 0.2133
+      },
+      {
+        "rank": 27,
+        "name": "Fluffy",
+        "borough_count": 147,
+        "borough_per_10k": 20.67,
+        "nyc_count": 694,
+        "nyc_per_10k": 10.2,
+        "uniqueness_score": 2.03,
+        "concentration": 0.2118
+      },
+      {
+        "rank": 28,
+        "name": "Ghost",
+        "borough_count": 66,
+        "borough_per_10k": 9.28,
+        "nyc_count": 318,
+        "nyc_per_10k": 4.67,
+        "uniqueness_score": 1.99,
+        "concentration": 0.2075
+      },
+      {
+        "rank": 29,
+        "name": "Faith",
+        "borough_count": 55,
+        "borough_per_10k": 7.73,
+        "nyc_count": 267,
+        "nyc_per_10k": 3.92,
+        "uniqueness_score": 1.97,
+        "concentration": 0.206
+      },
+      {
+        "rank": 30,
+        "name": "Brownie",
+        "borough_count": 266,
+        "borough_per_10k": 37.41,
+        "nyc_count": 1293,
+        "nyc_per_10k": 19.0,
+        "uniqueness_score": 1.97,
+        "concentration": 0.2057
+      },
+      {
+        "rank": 31,
+        "name": "London",
+        "borough_count": 60,
+        "borough_per_10k": 8.44,
+        "nyc_count": 295,
+        "nyc_per_10k": 4.33,
+        "uniqueness_score": 1.95,
+        "concentration": 0.2034
+      },
+      {
+        "rank": 32,
+        "name": "Oso",
+        "borough_count": 50,
+        "borough_per_10k": 7.03,
+        "nyc_count": 246,
+        "nyc_per_10k": 3.61,
+        "uniqueness_score": 1.95,
+        "concentration": 0.2033
+      },
+      {
+        "rank": 33,
+        "name": "Noah",
+        "borough_count": 64,
+        "borough_per_10k": 9.0,
+        "nyc_count": 316,
+        "nyc_per_10k": 4.64,
+        "uniqueness_score": 1.94,
+        "concentration": 0.2025
+      },
+      {
+        "rank": 34,
+        "name": "Onyx",
+        "borough_count": 102,
+        "borough_per_10k": 14.34,
+        "nyc_count": 505,
+        "nyc_per_10k": 7.42,
+        "uniqueness_score": 1.93,
+        "concentration": 0.202
+      },
+      {
+        "rank": 35,
+        "name": "Oreo",
+        "borough_count": 497,
+        "borough_per_10k": 69.89,
+        "nyc_count": 2475,
+        "nyc_per_10k": 36.37,
+        "uniqueness_score": 1.92,
+        "concentration": 0.2008
+      },
+      {
+        "rank": 36,
+        "name": "Blu",
+        "borough_count": 113,
+        "borough_per_10k": 15.89,
+        "nyc_count": 564,
+        "nyc_per_10k": 8.29,
+        "uniqueness_score": 1.92,
+        "concentration": 0.2004
+      },
+      {
+        "rank": 37,
+        "name": "Sir",
+        "borough_count": 82,
+        "borough_per_10k": 11.53,
+        "nyc_count": 412,
+        "nyc_per_10k": 6.05,
+        "uniqueness_score": 1.9,
+        "concentration": 0.199
+      },
+      {
+        "rank": 38,
+        "name": "Prince",
+        "borough_count": 408,
+        "borough_per_10k": 57.38,
+        "nyc_count": 2062,
+        "nyc_per_10k": 30.3,
+        "uniqueness_score": 1.89,
+        "concentration": 0.1979
+      },
+      {
+        "rank": 39,
+        "name": "Gizmo",
+        "borough_count": 327,
+        "borough_per_10k": 45.98,
+        "nyc_count": 1659,
+        "nyc_per_10k": 24.38,
+        "uniqueness_score": 1.89,
+        "concentration": 0.1971
+      },
+      {
+        "rank": 40,
+        "name": "Ace",
+        "borough_count": 229,
+        "borough_per_10k": 32.2,
+        "nyc_count": 1164,
+        "nyc_per_10k": 17.1,
+        "uniqueness_score": 1.88,
+        "concentration": 0.1967
+      },
+      {
+        "rank": 41,
+        "name": "Benji",
+        "borough_count": 346,
+        "borough_per_10k": 48.66,
+        "nyc_count": 1760,
+        "nyc_per_10k": 25.86,
+        "uniqueness_score": 1.88,
+        "concentration": 0.1966
+      },
+      {
+        "rank": 42,
+        "name": "Bambi",
+        "borough_count": 88,
+        "borough_per_10k": 12.38,
+        "nyc_count": 451,
+        "nyc_per_10k": 6.63,
+        "uniqueness_score": 1.87,
+        "concentration": 0.1951
+      },
+      {
+        "rank": 43,
+        "name": "Storm",
+        "borough_count": 96,
+        "borough_per_10k": 13.5,
+        "nyc_count": 496,
+        "nyc_per_10k": 7.29,
+        "uniqueness_score": 1.85,
+        "concentration": 0.1935
+      },
+      {
+        "rank": 44,
+        "name": "Tiny",
+        "borough_count": 85,
+        "borough_per_10k": 11.95,
+        "nyc_count": 445,
+        "nyc_per_10k": 6.54,
+        "uniqueness_score": 1.83,
+        "concentration": 0.191
+      },
+      {
+        "rank": 45,
+        "name": "Rambo",
+        "borough_count": 75,
+        "borough_per_10k": 10.55,
+        "nyc_count": 395,
+        "nyc_per_10k": 5.8,
+        "uniqueness_score": 1.82,
+        "concentration": 0.1899
+      },
+      {
+        "rank": 46,
+        "name": "Rico",
+        "borough_count": 66,
+        "borough_per_10k": 9.28,
+        "nyc_count": 349,
+        "nyc_per_10k": 5.13,
+        "uniqueness_score": 1.81,
+        "concentration": 0.1891
+      },
+      {
+        "rank": 47,
+        "name": "Mikey",
+        "borough_count": 72,
+        "borough_per_10k": 10.13,
+        "nyc_count": 381,
+        "nyc_per_10k": 5.6,
+        "uniqueness_score": 1.81,
+        "concentration": 0.189
+      },
+      {
+        "rank": 48,
+        "name": "Pixie",
+        "borough_count": 50,
+        "borough_per_10k": 7.03,
+        "nyc_count": 269,
+        "nyc_per_10k": 3.95,
+        "uniqueness_score": 1.78,
+        "concentration": 0.1859
+      },
+      {
+        "rank": 49,
+        "name": "Bubbles",
+        "borough_count": 51,
+        "borough_per_10k": 7.17,
+        "nyc_count": 276,
+        "nyc_per_10k": 4.06,
+        "uniqueness_score": 1.77,
+        "concentration": 0.1848
+      },
+      {
+        "rank": 50,
+        "name": "Samantha",
+        "borough_count": 87,
+        "borough_per_10k": 12.23,
+        "nyc_count": 472,
+        "nyc_per_10k": 6.94,
+        "uniqueness_score": 1.76,
+        "concentration": 0.1843
+      }
+    ],
+    "Brooklyn": [
+      {
+        "rank": 1,
+        "name": "Jolene",
+        "borough_count": 58,
+        "borough_per_10k": 3.21,
+        "nyc_count": 104,
+        "nyc_per_10k": 1.53,
+        "uniqueness_score": 2.1,
+        "concentration": 0.5577
+      },
+      {
+        "rank": 2,
+        "name": "Gary",
+        "borough_count": 58,
+        "borough_per_10k": 3.21,
+        "nyc_count": 113,
+        "nyc_per_10k": 1.66,
+        "uniqueness_score": 1.93,
+        "concentration": 0.5133
+      },
+      {
+        "rank": 3,
+        "name": "Chestnut",
+        "borough_count": 56,
+        "borough_per_10k": 3.1,
+        "nyc_count": 110,
+        "nyc_per_10k": 1.62,
+        "uniqueness_score": 1.92,
+        "concentration": 0.5091
+      },
+      {
+        "rank": 4,
+        "name": "Nori",
+        "borough_count": 75,
+        "borough_per_10k": 4.15,
+        "nyc_count": 149,
+        "nyc_per_10k": 2.19,
+        "uniqueness_score": 1.9,
+        "concentration": 0.5034
+      },
+      {
+        "rank": 5,
+        "name": "Tiki",
+        "borough_count": 59,
+        "borough_per_10k": 3.27,
+        "nyc_count": 118,
+        "nyc_per_10k": 1.73,
+        "uniqueness_score": 1.88,
+        "concentration": 0.5
+      },
+      {
+        "rank": 6,
+        "name": "Kenzo",
+        "borough_count": 70,
+        "borough_per_10k": 3.87,
+        "nyc_count": 148,
+        "nyc_per_10k": 2.17,
+        "uniqueness_score": 1.78,
+        "concentration": 0.473
+      },
+      {
+        "rank": 7,
+        "name": "Artemis",
+        "borough_count": 59,
+        "borough_per_10k": 3.27,
+        "nyc_count": 125,
+        "nyc_per_10k": 1.84,
+        "uniqueness_score": 1.78,
+        "concentration": 0.472
+      },
+      {
+        "rank": 8,
+        "name": "Frances",
+        "borough_count": 53,
+        "borough_per_10k": 2.93,
+        "nyc_count": 115,
+        "nyc_per_10k": 1.69,
+        "uniqueness_score": 1.74,
+        "concentration": 0.4609
+      },
+      {
+        "rank": 9,
+        "name": "Ramona",
+        "borough_count": 50,
+        "borough_per_10k": 2.77,
+        "nyc_count": 109,
+        "nyc_per_10k": 1.6,
+        "uniqueness_score": 1.73,
+        "concentration": 0.4587
+      },
+      {
+        "rank": 10,
+        "name": "Beatrice",
+        "borough_count": 51,
+        "borough_per_10k": 2.82,
+        "nyc_count": 112,
+        "nyc_per_10k": 1.65,
+        "uniqueness_score": 1.72,
+        "concentration": 0.4554
+      },
+      {
+        "rank": 11,
+        "name": "Barry",
+        "borough_count": 58,
+        "borough_per_10k": 3.21,
+        "nyc_count": 128,
+        "nyc_per_10k": 1.88,
+        "uniqueness_score": 1.71,
+        "concentration": 0.4531
+      },
+      {
+        "rank": 12,
+        "name": "Goose",
+        "borough_count": 123,
+        "borough_per_10k": 6.81,
+        "nyc_count": 273,
+        "nyc_per_10k": 4.01,
+        "uniqueness_score": 1.7,
+        "concentration": 0.4505
+      },
+      {
+        "rank": 13,
+        "name": "Greta",
+        "borough_count": 64,
+        "borough_per_10k": 3.54,
+        "nyc_count": 143,
+        "nyc_per_10k": 2.1,
+        "uniqueness_score": 1.69,
+        "concentration": 0.4476
+      },
+      {
+        "rank": 14,
+        "name": "Freckles",
+        "borough_count": 59,
+        "borough_per_10k": 3.27,
+        "nyc_count": 132,
+        "nyc_per_10k": 1.94,
+        "uniqueness_score": 1.68,
+        "concentration": 0.447
+      },
+      {
+        "rank": 15,
+        "name": "Juju",
+        "borough_count": 56,
+        "borough_per_10k": 3.1,
+        "nyc_count": 126,
+        "nyc_per_10k": 1.85,
+        "uniqueness_score": 1.67,
+        "concentration": 0.4444
+      },
+      {
+        "rank": 16,
+        "name": "Leeloo",
+        "borough_count": 51,
+        "borough_per_10k": 2.82,
+        "nyc_count": 115,
+        "nyc_per_10k": 1.69,
+        "uniqueness_score": 1.67,
+        "concentration": 0.4435
+      },
+      {
+        "rank": 17,
+        "name": "Saint",
+        "borough_count": 61,
+        "borough_per_10k": 3.38,
+        "nyc_count": 138,
+        "nyc_per_10k": 2.03,
+        "uniqueness_score": 1.67,
+        "concentration": 0.442
+      },
+      {
+        "rank": 18,
+        "name": "Pickle",
+        "borough_count": 68,
+        "borough_per_10k": 3.76,
+        "nyc_count": 154,
+        "nyc_per_10k": 2.26,
+        "uniqueness_score": 1.66,
+        "concentration": 0.4416
+      },
+      {
+        "rank": 19,
+        "name": "Bullet",
+        "borough_count": 60,
+        "borough_per_10k": 3.32,
+        "nyc_count": 137,
+        "nyc_per_10k": 2.01,
+        "uniqueness_score": 1.65,
+        "concentration": 0.438
+      },
+      {
+        "rank": 20,
+        "name": "Juniper",
+        "borough_count": 88,
+        "borough_per_10k": 4.87,
+        "nyc_count": 202,
+        "nyc_per_10k": 2.97,
+        "uniqueness_score": 1.64,
+        "concentration": 0.4356
+      },
+      {
+        "rank": 21,
+        "name": "Bodie",
+        "borough_count": 56,
+        "borough_per_10k": 3.1,
+        "nyc_count": 129,
+        "nyc_per_10k": 1.9,
+        "uniqueness_score": 1.64,
+        "concentration": 0.4341
+      },
+      {
+        "rank": 22,
+        "name": "Iggy",
+        "borough_count": 98,
+        "borough_per_10k": 5.42,
+        "nyc_count": 228,
+        "nyc_per_10k": 3.35,
+        "uniqueness_score": 1.62,
+        "concentration": 0.4298
+      },
+      {
+        "rank": 23,
+        "name": "Kevin",
+        "borough_count": 84,
+        "borough_per_10k": 4.65,
+        "nyc_count": 197,
+        "nyc_per_10k": 2.89,
+        "uniqueness_score": 1.61,
+        "concentration": 0.4264
+      },
+      {
+        "rank": 24,
+        "name": "Brooklyn",
+        "borough_count": 531,
+        "borough_per_10k": 29.39,
+        "nyc_count": 1250,
+        "nyc_per_10k": 18.37,
+        "uniqueness_score": 1.6,
+        "concentration": 0.4248
+      },
+      {
+        "rank": 25,
+        "name": "Zero",
+        "borough_count": 60,
+        "borough_per_10k": 3.32,
+        "nyc_count": 142,
+        "nyc_per_10k": 2.09,
+        "uniqueness_score": 1.59,
+        "concentration": 0.4225
+      },
+      {
+        "rank": 26,
+        "name": "Cleopatra",
+        "borough_count": 79,
+        "borough_per_10k": 4.37,
+        "nyc_count": 188,
+        "nyc_per_10k": 2.76,
+        "uniqueness_score": 1.58,
+        "concentration": 0.4202
+      },
+      {
+        "rank": 27,
+        "name": "Luka",
+        "borough_count": 65,
+        "borough_per_10k": 3.6,
+        "nyc_count": 158,
+        "nyc_per_10k": 2.32,
+        "uniqueness_score": 1.55,
+        "concentration": 0.4114
+      },
+      {
+        "rank": 28,
+        "name": "Kimchi",
+        "borough_count": 58,
+        "borough_per_10k": 3.21,
+        "nyc_count": 141,
+        "nyc_per_10k": 2.07,
+        "uniqueness_score": 1.55,
+        "concentration": 0.4113
+      },
+      {
+        "rank": 29,
+        "name": "John",
+        "borough_count": 51,
+        "borough_per_10k": 2.82,
+        "nyc_count": 124,
+        "nyc_per_10k": 1.82,
+        "uniqueness_score": 1.55,
+        "concentration": 0.4113
+      },
+      {
+        "rank": 30,
+        "name": "Terry",
+        "borough_count": 56,
+        "borough_per_10k": 3.1,
+        "nyc_count": 137,
+        "nyc_per_10k": 2.01,
+        "uniqueness_score": 1.54,
+        "concentration": 0.4088
+      },
+      {
+        "rank": 31,
+        "name": "Rue",
+        "borough_count": 52,
+        "borough_per_10k": 2.88,
+        "nyc_count": 128,
+        "nyc_per_10k": 1.88,
+        "uniqueness_score": 1.53,
+        "concentration": 0.4062
+      },
+      {
+        "rank": 32,
+        "name": "Blanca",
+        "borough_count": 54,
+        "borough_per_10k": 2.99,
+        "nyc_count": 134,
+        "nyc_per_10k": 1.97,
+        "uniqueness_score": 1.52,
+        "concentration": 0.403
+      },
+      {
+        "rank": 33,
+        "name": "Louise",
+        "borough_count": 67,
+        "borough_per_10k": 3.71,
+        "nyc_count": 167,
+        "nyc_per_10k": 2.45,
+        "uniqueness_score": 1.51,
+        "concentration": 0.4012
+      },
+      {
+        "rank": 34,
+        "name": "Birdie",
+        "borough_count": 110,
+        "borough_per_10k": 6.09,
+        "nyc_count": 275,
+        "nyc_per_10k": 4.04,
+        "uniqueness_score": 1.51,
+        "concentration": 0.4
+      },
+      {
+        "rank": 35,
+        "name": "Mary",
+        "borough_count": 69,
+        "borough_per_10k": 3.82,
+        "nyc_count": 173,
+        "nyc_per_10k": 2.54,
+        "uniqueness_score": 1.5,
+        "concentration": 0.3988
+      },
+      {
+        "rank": 36,
+        "name": "Evie",
+        "borough_count": 86,
+        "borough_per_10k": 4.76,
+        "nyc_count": 216,
+        "nyc_per_10k": 3.17,
+        "uniqueness_score": 1.5,
+        "concentration": 0.3981
+      },
+      {
+        "rank": 37,
+        "name": "Miso",
+        "borough_count": 98,
+        "borough_per_10k": 5.42,
+        "nyc_count": 247,
+        "nyc_per_10k": 3.63,
+        "uniqueness_score": 1.49,
+        "concentration": 0.3968
+      },
+      {
+        "rank": 38,
+        "name": "June",
+        "borough_count": 126,
+        "borough_per_10k": 6.97,
+        "nyc_count": 318,
+        "nyc_per_10k": 4.67,
+        "uniqueness_score": 1.49,
+        "concentration": 0.3962
+      },
+      {
+        "rank": 39,
+        "name": "Momo",
+        "borough_count": 171,
+        "borough_per_10k": 9.47,
+        "nyc_count": 432,
+        "nyc_per_10k": 6.35,
+        "uniqueness_score": 1.49,
+        "concentration": 0.3958
+      },
+      {
+        "rank": 40,
+        "name": "Queen",
+        "borough_count": 68,
+        "borough_per_10k": 3.76,
+        "nyc_count": 172,
+        "nyc_per_10k": 2.53,
+        "uniqueness_score": 1.49,
+        "concentration": 0.3953
+      },
+      {
+        "rank": 41,
+        "name": "Beanie",
+        "borough_count": 56,
+        "borough_per_10k": 3.1,
+        "nyc_count": 142,
+        "nyc_per_10k": 2.09,
+        "uniqueness_score": 1.49,
+        "concentration": 0.3944
+      },
+      {
+        "rank": 42,
+        "name": "Cricket",
+        "borough_count": 74,
+        "borough_per_10k": 4.1,
+        "nyc_count": 189,
+        "nyc_per_10k": 2.78,
+        "uniqueness_score": 1.48,
+        "concentration": 0.3915
+      },
+      {
+        "rank": 43,
+        "name": "Mo",
+        "borough_count": 54,
+        "borough_per_10k": 2.99,
+        "nyc_count": 138,
+        "nyc_per_10k": 2.03,
+        "uniqueness_score": 1.47,
+        "concentration": 0.3913
+      },
+      {
+        "rank": 44,
+        "name": "Lula",
+        "borough_count": 61,
+        "borough_per_10k": 3.38,
+        "nyc_count": 156,
+        "nyc_per_10k": 2.29,
+        "uniqueness_score": 1.47,
+        "concentration": 0.391
+      },
+      {
+        "rank": 45,
+        "name": "Freya",
+        "borough_count": 82,
+        "borough_per_10k": 4.54,
+        "nyc_count": 210,
+        "nyc_per_10k": 3.09,
+        "uniqueness_score": 1.47,
+        "concentration": 0.3905
+      },
+      {
+        "rank": 46,
+        "name": "Flash",
+        "borough_count": 90,
+        "borough_per_10k": 4.98,
+        "nyc_count": 231,
+        "nyc_per_10k": 3.39,
+        "uniqueness_score": 1.47,
+        "concentration": 0.3896
+      },
+      {
+        "rank": 47,
+        "name": "Pete",
+        "borough_count": 86,
+        "borough_per_10k": 4.76,
+        "nyc_count": 221,
+        "nyc_per_10k": 3.25,
+        "uniqueness_score": 1.47,
+        "concentration": 0.3891
+      },
+      {
+        "rank": 48,
+        "name": "Ashley",
+        "borough_count": 57,
+        "borough_per_10k": 3.16,
+        "nyc_count": 147,
+        "nyc_per_10k": 2.16,
+        "uniqueness_score": 1.46,
+        "concentration": 0.3878
+      },
+      {
+        "rank": 49,
+        "name": "Hennessy",
+        "borough_count": 50,
+        "borough_per_10k": 2.77,
+        "nyc_count": 129,
+        "nyc_per_10k": 1.9,
+        "uniqueness_score": 1.46,
+        "concentration": 0.3876
+      },
+      {
+        "rank": 50,
+        "name": "Sally",
+        "borough_count": 155,
+        "borough_per_10k": 8.58,
+        "nyc_count": 401,
+        "nyc_per_10k": 5.89,
+        "uniqueness_score": 1.46,
+        "concentration": 0.3865
+      }
+    ],
+    "Queens": [
+      {
+        "rank": 1,
+        "name": "Xiao",
+        "borough_count": 52,
+        "borough_per_10k": 4.6,
+        "nyc_count": 113,
+        "nyc_per_10k": 1.66,
+        "uniqueness_score": 2.77,
+        "concentration": 0.4602
+      },
+      {
+        "rank": 2,
+        "name": "Queenie",
+        "borough_count": 75,
+        "borough_per_10k": 6.64,
+        "nyc_count": 193,
+        "nyc_per_10k": 2.84,
+        "uniqueness_score": 2.34,
+        "concentration": 0.3886
+      },
+      {
+        "rank": 3,
+        "name": "Coffee",
+        "borough_count": 75,
+        "borough_per_10k": 6.64,
+        "nyc_count": 201,
+        "nyc_per_10k": 2.95,
+        "uniqueness_score": 2.25,
+        "concentration": 0.3731
+      },
+      {
+        "rank": 4,
+        "name": "Brandy",
+        "borough_count": 162,
+        "borough_per_10k": 14.33,
+        "nyc_count": 446,
+        "nyc_per_10k": 6.55,
+        "uniqueness_score": 2.19,
+        "concentration": 0.3632
+      },
+      {
+        "rank": 5,
+        "name": "Amy",
+        "borough_count": 84,
+        "borough_per_10k": 7.43,
+        "nyc_count": 242,
+        "nyc_per_10k": 3.56,
+        "uniqueness_score": 2.09,
+        "concentration": 0.3471
+      },
+      {
+        "rank": 6,
+        "name": "Coby",
+        "borough_count": 64,
+        "borough_per_10k": 5.66,
+        "nyc_count": 190,
+        "nyc_per_10k": 2.79,
+        "uniqueness_score": 2.03,
+        "concentration": 0.3368
+      },
+      {
+        "rank": 7,
+        "name": "Andy",
+        "borough_count": 132,
+        "borough_per_10k": 11.68,
+        "nyc_count": 403,
+        "nyc_per_10k": 5.92,
+        "uniqueness_score": 1.97,
+        "concentration": 0.3275
+      },
+      {
+        "rank": 8,
+        "name": "Guinness",
+        "borough_count": 75,
+        "borough_per_10k": 6.64,
+        "nyc_count": 233,
+        "nyc_per_10k": 3.42,
+        "uniqueness_score": 1.94,
+        "concentration": 0.3219
+      },
+      {
+        "rank": 9,
+        "name": "Snowball",
+        "borough_count": 133,
+        "borough_per_10k": 11.77,
+        "nyc_count": 415,
+        "nyc_per_10k": 6.1,
+        "uniqueness_score": 1.93,
+        "concentration": 0.3205
+      },
+      {
+        "rank": 10,
+        "name": "Amber",
+        "borough_count": 115,
+        "borough_per_10k": 10.18,
+        "nyc_count": 361,
+        "nyc_per_10k": 5.3,
+        "uniqueness_score": 1.92,
+        "concentration": 0.3186
+      },
+      {
+        "rank": 11,
+        "name": "Bubba",
+        "borough_count": 86,
+        "borough_per_10k": 7.61,
+        "nyc_count": 272,
+        "nyc_per_10k": 4.0,
+        "uniqueness_score": 1.9,
+        "concentration": 0.3162
+      },
+      {
+        "rank": 12,
+        "name": "Casper",
+        "borough_count": 174,
+        "borough_per_10k": 15.4,
+        "nyc_count": 552,
+        "nyc_per_10k": 8.11,
+        "uniqueness_score": 1.9,
+        "concentration": 0.3152
+      },
+      {
+        "rank": 13,
+        "name": "Tommy",
+        "borough_count": 120,
+        "borough_per_10k": 10.62,
+        "nyc_count": 381,
+        "nyc_per_10k": 5.6,
+        "uniqueness_score": 1.9,
+        "concentration": 0.315
+      },
+      {
+        "rank": 14,
+        "name": "Leila",
+        "borough_count": 73,
+        "borough_per_10k": 6.46,
+        "nyc_count": 232,
+        "nyc_per_10k": 3.41,
+        "uniqueness_score": 1.89,
+        "concentration": 0.3147
+      },
+      {
+        "rank": 15,
+        "name": "Misty",
+        "borough_count": 119,
+        "borough_per_10k": 10.53,
+        "nyc_count": 388,
+        "nyc_per_10k": 5.7,
+        "uniqueness_score": 1.85,
+        "concentration": 0.3067
+      },
+      {
+        "rank": 16,
+        "name": "Fifi",
+        "borough_count": 58,
+        "borough_per_10k": 5.13,
+        "nyc_count": 194,
+        "nyc_per_10k": 2.85,
+        "uniqueness_score": 1.8,
+        "concentration": 0.299
+      },
+      {
+        "rank": 17,
+        "name": "Tinkerbell",
+        "borough_count": 60,
+        "borough_per_10k": 5.31,
+        "nyc_count": 202,
+        "nyc_per_10k": 2.97,
+        "uniqueness_score": 1.79,
+        "concentration": 0.297
+      },
+      {
+        "rank": 18,
+        "name": "Heidi",
+        "borough_count": 101,
+        "borough_per_10k": 8.94,
+        "nyc_count": 342,
+        "nyc_per_10k": 5.02,
+        "uniqueness_score": 1.78,
+        "concentration": 0.2953
+      },
+      {
+        "rank": 19,
+        "name": "Rocko",
+        "borough_count": 70,
+        "borough_per_10k": 6.19,
+        "nyc_count": 239,
+        "nyc_per_10k": 3.51,
+        "uniqueness_score": 1.76,
+        "concentration": 0.2929
+      },
+      {
+        "rank": 20,
+        "name": "Angel",
+        "borough_count": 237,
+        "borough_per_10k": 20.97,
+        "nyc_count": 810,
+        "nyc_per_10k": 11.9,
+        "uniqueness_score": 1.76,
+        "concentration": 0.2926
+      },
+      {
+        "rank": 21,
+        "name": "Tina",
+        "borough_count": 87,
+        "borough_per_10k": 7.7,
+        "nyc_count": 298,
+        "nyc_per_10k": 4.38,
+        "uniqueness_score": 1.76,
+        "concentration": 0.2919
+      },
+      {
+        "rank": 22,
+        "name": "Shea",
+        "borough_count": 123,
+        "borough_per_10k": 10.88,
+        "nyc_count": 422,
+        "nyc_per_10k": 6.2,
+        "uniqueness_score": 1.76,
+        "concentration": 0.2915
+      },
+      {
+        "rank": 23,
+        "name": "Jordan",
+        "borough_count": 52,
+        "borough_per_10k": 4.6,
+        "nyc_count": 180,
+        "nyc_per_10k": 2.64,
+        "uniqueness_score": 1.74,
+        "concentration": 0.2889
+      },
+      {
+        "rank": 24,
+        "name": "Koko",
+        "borough_count": 103,
+        "borough_per_10k": 9.11,
+        "nyc_count": 358,
+        "nyc_per_10k": 5.26,
+        "uniqueness_score": 1.73,
+        "concentration": 0.2877
+      },
+      {
+        "rank": 25,
+        "name": "Champ",
+        "borough_count": 117,
+        "borough_per_10k": 10.35,
+        "nyc_count": 409,
+        "nyc_per_10k": 6.01,
+        "uniqueness_score": 1.72,
+        "concentration": 0.2861
+      },
+      {
+        "rank": 26,
+        "name": "Miley",
+        "borough_count": 65,
+        "borough_per_10k": 5.75,
+        "nyc_count": 230,
+        "nyc_per_10k": 3.38,
+        "uniqueness_score": 1.7,
+        "concentration": 0.2826
+      },
+      {
+        "rank": 27,
+        "name": "Oso",
+        "borough_count": 69,
+        "borough_per_10k": 6.11,
+        "nyc_count": 246,
+        "nyc_per_10k": 3.61,
+        "uniqueness_score": 1.69,
+        "concentration": 0.2805
+      },
+      {
+        "rank": 28,
+        "name": "Dakota",
+        "borough_count": 149,
+        "borough_per_10k": 13.18,
+        "nyc_count": 533,
+        "nyc_per_10k": 7.83,
+        "uniqueness_score": 1.68,
+        "concentration": 0.2795
+      },
+      {
+        "rank": 29,
+        "name": "Lexie",
+        "borough_count": 90,
+        "borough_per_10k": 7.96,
+        "nyc_count": 323,
+        "nyc_per_10k": 4.75,
+        "uniqueness_score": 1.68,
+        "concentration": 0.2786
+      },
+      {
+        "rank": 30,
+        "name": "Lucas",
+        "borough_count": 136,
+        "borough_per_10k": 12.03,
+        "nyc_count": 494,
+        "nyc_per_10k": 7.26,
+        "uniqueness_score": 1.66,
+        "concentration": 0.2753
+      },
+      {
+        "rank": 31,
+        "name": "Maui",
+        "borough_count": 61,
+        "borough_per_10k": 5.4,
+        "nyc_count": 222,
+        "nyc_per_10k": 3.26,
+        "uniqueness_score": 1.65,
+        "concentration": 0.2748
+      },
+      {
+        "rank": 32,
+        "name": "Cindy",
+        "borough_count": 65,
+        "borough_per_10k": 5.75,
+        "nyc_count": 237,
+        "nyc_per_10k": 3.48,
+        "uniqueness_score": 1.65,
+        "concentration": 0.2743
+      },
+      {
+        "rank": 33,
+        "name": "Tyson",
+        "borough_count": 183,
+        "borough_per_10k": 16.19,
+        "nyc_count": 675,
+        "nyc_per_10k": 9.92,
+        "uniqueness_score": 1.63,
+        "concentration": 0.2711
+      },
+      {
+        "rank": 34,
+        "name": "Happy",
+        "borough_count": 156,
+        "borough_per_10k": 13.8,
+        "nyc_count": 576,
+        "nyc_per_10k": 8.46,
+        "uniqueness_score": 1.63,
+        "concentration": 0.2708
+      },
+      {
+        "rank": 35,
+        "name": "Spanky",
+        "borough_count": 69,
+        "borough_per_10k": 6.11,
+        "nyc_count": 255,
+        "nyc_per_10k": 3.75,
+        "uniqueness_score": 1.63,
+        "concentration": 0.2706
+      },
+      {
+        "rank": 36,
+        "name": "Simba",
+        "borough_count": 310,
+        "borough_per_10k": 27.43,
+        "nyc_count": 1153,
+        "nyc_per_10k": 16.94,
+        "uniqueness_score": 1.62,
+        "concentration": 0.2689
+      },
+      {
+        "rank": 37,
+        "name": "Tony",
+        "borough_count": 97,
+        "borough_per_10k": 8.58,
+        "nyc_count": 363,
+        "nyc_per_10k": 5.33,
+        "uniqueness_score": 1.61,
+        "concentration": 0.2672
+      },
+      {
+        "rank": 38,
+        "name": "Junior",
+        "borough_count": 125,
+        "borough_per_10k": 11.06,
+        "nyc_count": 468,
+        "nyc_per_10k": 6.88,
+        "uniqueness_score": 1.61,
+        "concentration": 0.2671
+      },
+      {
+        "rank": 39,
+        "name": "Nicky",
+        "borough_count": 57,
+        "borough_per_10k": 5.04,
+        "nyc_count": 214,
+        "nyc_per_10k": 3.14,
+        "uniqueness_score": 1.6,
+        "concentration": 0.2664
+      },
+      {
+        "rank": 40,
+        "name": "Scrappy",
+        "borough_count": 86,
+        "borough_per_10k": 7.61,
+        "nyc_count": 325,
+        "nyc_per_10k": 4.78,
+        "uniqueness_score": 1.59,
+        "concentration": 0.2646
+      },
+      {
+        "rank": 41,
+        "name": "London",
+        "borough_count": 78,
+        "borough_per_10k": 6.9,
+        "nyc_count": 295,
+        "nyc_per_10k": 4.33,
+        "uniqueness_score": 1.59,
+        "concentration": 0.2644
+      },
+      {
+        "rank": 42,
+        "name": "Bebe",
+        "borough_count": 76,
+        "borough_per_10k": 6.73,
+        "nyc_count": 290,
+        "nyc_per_10k": 4.26,
+        "uniqueness_score": 1.58,
+        "concentration": 0.2621
+      },
+      {
+        "rank": 43,
+        "name": "Pepe",
+        "borough_count": 72,
+        "borough_per_10k": 6.37,
+        "nyc_count": 275,
+        "nyc_per_10k": 4.04,
+        "uniqueness_score": 1.58,
+        "concentration": 0.2618
+      },
+      {
+        "rank": 44,
+        "name": "Axel",
+        "borough_count": 71,
+        "borough_per_10k": 6.28,
+        "nyc_count": 273,
+        "nyc_per_10k": 4.01,
+        "uniqueness_score": 1.57,
+        "concentration": 0.2601
+      },
+      {
+        "rank": 45,
+        "name": "Dylan",
+        "borough_count": 63,
+        "borough_per_10k": 5.57,
+        "nyc_count": 243,
+        "nyc_per_10k": 3.57,
+        "uniqueness_score": 1.56,
+        "concentration": 0.2593
+      },
+      {
+        "rank": 46,
+        "name": "Jasmine",
+        "borough_count": 80,
+        "borough_per_10k": 7.08,
+        "nyc_count": 310,
+        "nyc_per_10k": 4.55,
+        "uniqueness_score": 1.55,
+        "concentration": 0.2581
+      },
+      {
+        "rank": 47,
+        "name": "Nino",
+        "borough_count": 80,
+        "borough_per_10k": 7.08,
+        "nyc_count": 311,
+        "nyc_per_10k": 4.57,
+        "uniqueness_score": 1.55,
+        "concentration": 0.2572
+      },
+      {
+        "rank": 48,
+        "name": "Kiwi",
+        "borough_count": 74,
+        "borough_per_10k": 6.55,
+        "nyc_count": 288,
+        "nyc_per_10k": 4.23,
+        "uniqueness_score": 1.55,
+        "concentration": 0.2569
+      },
+      {
+        "rank": 49,
+        "name": "Snow",
+        "borough_count": 147,
+        "borough_per_10k": 13.01,
+        "nyc_count": 573,
+        "nyc_per_10k": 8.42,
+        "uniqueness_score": 1.55,
+        "concentration": 0.2565
+      },
+      {
+        "rank": 50,
+        "name": "Vinny",
+        "borough_count": 50,
+        "borough_per_10k": 4.42,
+        "nyc_count": 195,
+        "nyc_per_10k": 2.87,
+        "uniqueness_score": 1.54,
+        "concentration": 0.2564
+      }
+    ]
+  }
+}
